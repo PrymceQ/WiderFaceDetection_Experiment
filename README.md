@@ -6,7 +6,7 @@ Integration Result of MMDetection_pkl and YOLOV5_txt on WIDERFACE Datasets
 ### Data DownLoad
 Data DownLoad from [WIDERFACE Dataset](http://shuoyang1213.me/WIDERFACE/index.html)
 
-Unzip the downloaded file and place it in the corresponding folder.
+Unzip the downloaded file and place it in the corresponding folder. Empty file `Datasets` is in Datasets.zip.
 
 1. WIDER Face Training Images    ->   ./Datasets/WIDER_train/
 2. WIDER Face Validation Images  ->   ./Datasets/WIDER_val/
