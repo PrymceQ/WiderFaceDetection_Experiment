@@ -33,6 +33,7 @@ YOLO-V5 trainning data file in `./Datasets/widerface_YOLO`
 Some trainning result in `./mmdetection_RCNN/` and `./YOLOV5_yolov5m`
 
 ## 3 Visualization
+We provide two visualization ways, one pkl style using `./mmdetection_RCNN/Visualization_pkl.ipynb` and one yolo style using `./YOLOV5_yolov5m/Visualization_YOLOV5.ipynb`
 
 
 ## 4 Evaluation
@@ -40,3 +41,5 @@ It is convenient to use MMDetection's tool `mmdetection/tools/analysis_tools/eva
 
 ## 5 Model Results Integration
 Here we use NMS for model results (mmdetection style `.pkl` and yolo style `.txt`), which is supported in `./NMS_pklAndYolov5.ipynb`.
+
+![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
