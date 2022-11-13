@@ -24,3 +24,16 @@ Run the following program step by step:
 2. `voc2coco`: Convert VOC format to COCO format.     # Used in [MMDetection](https://github.com/open-mmlab/mmdetection) tools
 3. `yolo_extract.py`: Extract filenames.
 4. `xml2yolo.py`: Convert COCO format to YOLO format. # Used in [YOLOV5](https://github.com/ultralytics/yolov5) tools
+
+## 2 Train
+MMDetection trainning data file in `./Datasets/widerface_COCO`
+
+YOLO-V5 trainning data file in `./Datasets/widerface_YOLO`
+
+Some trainning result in `./mmdetection_RCNN/` and `./YOLOV5_yolov5m`
+
+## 3 Visualization
+
+
+## 4 Evaluation
+It is convenient to use MMDetection's tool `mmdetection/tools/analysis_tools/eval_metric.py` for result evaluation uniformly, but it needs to convert yolo's results into pkl files, which is supported in `./YOLOV5_yolov5m/YOLOresult2pkl.ipynb`.
