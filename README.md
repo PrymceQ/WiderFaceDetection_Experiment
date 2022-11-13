@@ -30,7 +30,7 @@ MMDetection trainning data file in `./Datasets/widerface_COCO`
 
 YOLO-V5 trainning data file in `./Datasets/widerface_YOLO`
 
-Some trainning result in `./mmdetection_RCNN/` and `./YOLOV5_yolov5m`
+Some trainning result in `./mmdetection_RCNN/` and `./YOLOV5_yolov5m/`
 
 ## 3 Visualization
 We provide two visualization ways, one pkl style using `./mmdetection_RCNN/Visualization_pkl.ipynb` and one yolo style using `./YOLOV5_yolov5m/Visualization_YOLOV5.ipynb`
