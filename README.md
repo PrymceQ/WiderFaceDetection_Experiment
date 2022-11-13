@@ -37,3 +37,6 @@ Some trainning result in `./mmdetection_RCNN/` and `./YOLOV5_yolov5m`
 
 ## 4 Evaluation
 It is convenient to use MMDetection's tool `mmdetection/tools/analysis_tools/eval_metric.py` for result evaluation uniformly, but it needs to convert yolo's results into pkl files, which is supported in `./YOLOV5_yolov5m/YOLOresult2pkl.ipynb`.
+
+## 5 Model Results Integration
+Here we use NMS for model results (mmdetection style `.pkl` and yolo style `.txt`), which is supported in `./NMS_pklAndYolov5.ipynb`.
