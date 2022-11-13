@@ -42,4 +42,4 @@ It is convenient to use MMDetection's tool `mmdetection/tools/analysis_tools/eva
 ## 5 Model Results Integration
 Here we use NMS for model results (mmdetection style `.pkl` and yolo style `.txt`), which is supported in `./NMS_pklAndYolov5.ipynb`.
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Example](example.png)
